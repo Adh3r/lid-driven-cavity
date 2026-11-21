@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Lid-driven cavity: a validated stream function-vorticity solver"
+version: 1.0.0
+date-released: 2026-11-21
+license: MIT
+repository-code: "https://github.com/Adh3r/lid-driven-cavity"
+authors:
+  - family-names: "Ruiz Herrero"
+    given-names: "Adam"
+  - family-names: "Cabrera"
+    given-names: "Dènia"
+  - family-names: "Alegre"
+    given-names: "Elena"
+keywords:
+  - computational fluid dynamics
+  - lid-driven cavity
+  - Navier-Stokes
+  - finite differences
+  - Newton's method
+references:
+  - type: article
+    title: "High-Re solutions for incompressible flow using the Navier-Stokes equations and a multigrid method"
+    authors:
+      - family-names: "Ghia"
+        given-names: "U."
+      - family-names: "Ghia"
+        given-names: "K. N."
+      - family-names: "Shin"
+        given-names: "C. T."
+    journal: "Journal of Computational Physics"
+    volume: 48
+    start: 387
+    end: 411
+    year: 1982
+  - type: article
+    title: "Benchmark spectral results on the lid-driven cavity flow"
+    authors:
+      - family-names: "Botella"
+        given-names: "O."
+      - family-names: "Peyret"
+        given-names: "R."
+    journal: "Computers & Fluids"
+    volume: 27
+    issue: 4
+    start: 421
+    end: 433
+    year: 1998
