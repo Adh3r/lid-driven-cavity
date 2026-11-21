@@ -7,7 +7,7 @@ The original project was developed for the course *Mecànica de Fluids*
 
 - **Adam Ruiz Herrero** ([@Adh3r](https://github.com/Adh3r))
 - **Dènia Cabrera** ([@deniacabrera](https://github.com/deniacabrera))
-- **Elena Alegre**
+- **Elena Alegre** ([@elenalegre](https://github.com/elenalegre))
 
 The team derived the stream function-vorticity formulation and its
 discretisation, wrote the original solver (`original/cavity_original.py`), and
