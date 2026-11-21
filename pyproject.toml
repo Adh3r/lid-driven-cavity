@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lid-driven-cavity"
+version = "1.0.0"
+description = "Validated stream function-vorticity solver for the 2-D lid-driven cavity flow"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = ["numpy>=1.26", "scipy>=1.11", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["test"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+extend-exclude = ["original"]  # the course submission, kept unmodified
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
+
+[tool.ruff.format]
+quote-style = "preserve"
